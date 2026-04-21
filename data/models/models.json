@@ -1,0 +1,790 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "last_updated": "2026-04-21",
+    "total_entries": 55,
+    "note": "数据来源：公开资料整理，随项目持续更新"
+  },
+  "models": [
+    {
+      "id": "gpt-4",
+      "name": "GPT-4",
+      "company": "OpenAI",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "道祖·奥赖利桑",
+      "faction": "阐教",
+      "capabilities": ["文本生成", "代码生成", "多模态理解", "推理", "工具调用"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-03-14",
+      "context_window": 128000,
+      "flagship_metric": "MMLU 86.4%",
+      "key_breakthroughs": [
+        "第一个真正意义上的多模态通用大模型",
+        "RLHF对齐范式的奠基者",
+        "ChatGPT现象级出圈，定义LLM时代"
+      ],
+      "scores": {
+        "technical_breakthrough": 9.5,
+        "ecosystem_impact": 10.0,
+        "open_source_contribution": 3.0,
+        "social_value": 7.5
+      },
+      "karma_event": null,
+      "sources": ["https://openai.com/index/gpt-4-research", "https://arxiv.org/abs/2303.08774"]
+    },
+    {
+      "id": "gemini-ultra",
+      "name": "Gemini Ultra",
+      "company": "Google DeepMind",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "昊天金阙上帝",
+      "faction": "阐教/天庭",
+      "capabilities": ["原生多模态", "文本", "代码", "图像", "视频", "音频", "工具调用"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-12-06",
+      "context_window": 1000000,
+      "flagship_metric": "MMLU 90.0%",
+      "key_breakthroughs": [
+        "原生多模态架构，统一处理所有模态",
+        "Google搜索+AI深度整合",
+        "AlphaFold+Gemini打通科学研究全链路"
+      ],
+      "scores": {
+        "technical_breakthrough": 9.5,
+        "ecosystem_impact": 9.0,
+        "open_source_contribution": 3.0,
+        "social_value": 8.0
+      },
+      "karma_event": null,
+      "sources": ["https://deepmind.google/gemini"]
+    },
+    {
+      "id": "llama-3",
+      "name": "LLaMA 3",
+      "company": "Meta",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "截教教主·小扎",
+      "faction": "截教",
+      "capabilities": ["文本生成", "代码生成", "推理", "指令遵循"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2024-04-18",
+      "context_window": 128000,
+      "flagship_metric": "MMLU 82.0%",
+      "key_breakthroughs": [
+        "LLaMA 2引爆开源大模型生态",
+        "无数开源模型衍生自LLaMA（Mistral/Qwen/Phi）",
+        "推动AI民主化，有教无类"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.5,
+        "ecosystem_impact": 9.5,
+        "open_source_contribution": 10.0,
+        "social_value": 8.5
+      },
+      "karma_event": null,
+      "sources": ["https://ai.meta.com/llama"]
+    },
+    {
+      "id": "claude-3-opus",
+      "name": "Claude 3 Opus",
+      "company": "Anthropic",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "阐教副教主·隐者",
+      "faction": "阐教正统",
+      "capabilities": ["文本生成", "复杂推理", "长上下文", "代码生成", "安全性"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-03-04",
+      "context_window": 200000,
+      "flagship_metric": "MMLU 86.8%",
+      "key_breakthroughs": [
+        "Constitutional AI是对齐领域重大创新",
+        "200K上下文是工程奇迹",
+        "安全性优先理念独树一帜"
+      ],
+      "scores": {
+        "technical_breakthrough": 9.0,
+        "ecosystem_impact": 8.0,
+        "open_source_contribution": 3.0,
+        "social_value": 9.5
+      },
+      "karma_event": null,
+      "sources": ["https://www.anthropic.com/news/claude-3-family"]
+    },
+    {
+      "id": "grok-2",
+      "name": "Grok-2",
+      "company": "xAI",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "西方哪吒·马斯克",
+      "faction": "新阐教",
+      "capabilities": ["文本生成", "推理", "实时知识", "幽默回复"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2024-08-14",
+      "context_window": 131072,
+      "flagship_metric": "MMLU 81.3%",
+      "key_breakthroughs": [
+        "2023年成立，快速推出Grok-1/2",
+        "Max Welfare对齐目标与众不同",
+        "与X/Twitter深度整合"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.5,
+        "ecosystem_impact": 7.0,
+        "open_source_contribution": 8.0,
+        "social_value": 6.0
+      },
+      "karma_event": "Grok表情包机器人言论过于激进，引发对齐争议",
+      "sources": ["https://x.ai"]
+    },
+    {
+      "id": "mistral-7b",
+      "name": "Mistral 7B",
+      "company": "Mistral AI",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "欧罗巴截教教主",
+      "faction": "截教",
+      "capabilities": ["文本生成", "代码生成", "推理"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2023-09-27",
+      "context_window": 32768,
+      "flagship_metric": "MMLU 64.2%",
+      "key_breakthroughs": [
+        "Mistral 7B以小博大，性能超越大其数倍的模型",
+        "Mixtral 8x7B开创MoE开源先河",
+        "欧洲AI独立力量，无需授权即可商用"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.5,
+        "ecosystem_impact": 8.5,
+        "open_source_contribution": 9.5,
+        "social_value": 7.5
+      },
+      "karma_event": null,
+      "sources": ["https://mistral.ai/news/announcing-mistral-7b"]
+    },
+    {
+      "id": "qwen-72b",
+      "name": "Qwen-72B",
+      "company": "阿里巴巴",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "道祖亲传·阿里",
+      "faction": "道祖一脉",
+      "capabilities": ["文本生成", "代码生成", "多模态", "推理"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2023-11-30",
+      "context_window": 128000,
+      "flagship_metric": "MMLU 86.4%",
+      "key_breakthroughs": [
+        "Qwen-72B刷新开源模型规模记录",
+        "通义千问应用矩阵完整（听雨/文创/代码）",
+        "阿里云算力+模型一体化生态"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.0,
+        "ecosystem_impact": 8.0,
+        "open_source_contribution": 9.0,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://qwenlm.github.io"]
+    },
+    {
+      "id": "ernie-4",
+      "name": "文心大模型 4.0",
+      "company": "百度",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "中原道德天尊",
+      "faction": "人道",
+      "capabilities": ["文本生成", "中文NLP", "多模态", "知识图谱"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-10-17",
+      "context_window": 10000,
+      "flagship_metric": "中文理解领先",
+      "key_breakthroughs": [
+        "中国首个大规模商用LLM之一",
+        "ERNIE在中文场景达国际一线水平",
+        "文心一格+文心一言多模态布局"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.5,
+        "ecosystem_impact": 8.0,
+        "open_source_contribution": 2.0,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://wenxin.baidu.com"]
+    },
+    {
+      "id": "kimi-chatglm",
+      "name": "Kimi / ChatGLM",
+      "company": "月之暗面 (Moonshot AI)",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "长空灵君·Kimi",
+      "faction": "人道",
+      "capabilities": ["超长上下文", "文本生成", "多模态"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-10-09",
+      "context_window": 200000,
+      "flagship_metric": "200K超长上下文",
+      "key_breakthroughs": [
+        "200K超长上下文震惊业界",
+        "杨植麟带队，大模型创业新锐",
+        "Kimi智能助手快速破圈"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.5,
+        "ecosystem_impact": 7.5,
+        "open_source_contribution": 1.0,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://kimi.moonshot.cn"]
+    },
+    {
+      "id": "yi-34b",
+      "name": "Yi-34B",
+      "company": "零一万物 (01.AI)",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "新阐教护法·李开复",
+      "faction": "新阐教",
+      "capabilities": ["文本生成", "代码生成", "推理"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2023-11-05",
+      "context_window": 200000,
+      "flagship_metric": "开源34B最强之一",
+      "key_breakthroughs": [
+        "李开复带队，2023年创立即发布Yi-34B",
+        "Yi-34B开源刷新多项记录",
+        "开源大模型教父级别创始团队"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 6.5,
+        "open_source_contribution": 8.5,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://01.ai"]
+    },
+    {
+      "id": "deepseek-v3",
+      "name": "DeepSeek V3",
+      "company": "深度求索 (DeepSeek)",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "求索真君",
+      "faction": "截教旁支",
+      "capabilities": ["推理", "代码生成", "数学"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2024-01-25",
+      "context_window": 128000,
+      "flagship_metric": "数学推理领先",
+      "key_breakthroughs": [
+        "量化投资背景团队，大模型+金融场景独特",
+        "DeepSeek系列开源模型性能不俗",
+        "聚焦推理能力与工程优化"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 6.0,
+        "open_source_contribution": 8.0,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://deepseek.com"]
+    },
+    {
+      "id": "minimax-abab",
+      "name": "ABAB 系列",
+      "company": "稀宇科技 (MiniMax)",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "妙音灵君",
+      "faction": "截教新秀",
+      "capabilities": ["文本生成", "语音合成", "图像生成", "多模态"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-08-01",
+      "context_window": 100000,
+      "flagship_metric": "中国TTS API商业化领先",
+      "key_breakthroughs": [
+        "海德堡大学背景，技术底蕴深厚",
+        "文本、语音、图像多模态能力完整",
+        "国内首个推出TTS API商业化的公司"
+      ],
+      "scores": {
+        "technical_breakthrough": 6.5,
+        "ecosystem_impact": 6.5,
+        "open_source_contribution": 2.0,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://www.minimax.io"]
+    },
+    {
+      "id": "step-2",
+      "name": "Step-2",
+      "company": "阶跃星辰 (StepFun)",
+      "type": "foundation",
+      "category": "general",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "沪上新人·阶跃",
+      "faction": "人道",
+      "capabilities": ["文本生成", "推理", "多模态"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-03-01",
+      "context_window": 1000000,
+      "flagship_metric": "万亿参数MoE",
+      "key_breakthroughs": [
+        "上海AI领域新兴力量",
+        "Step-2万亿参数MoE大模型",
+        "与上海AI实验室深度合作"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 5.5,
+        "open_source_contribution": 1.0,
+        "social_value": 6.0
+      },
+      "karma_event": null,
+      "sources": ["https://www.stepfun.ai"]
+    },
+    {
+      "id": "alphafold-3",
+      "name": "AlphaFold 3",
+      "company": "Google DeepMind",
+      "type": "foundation",
+      "category": "scientific",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "天后·补天圣手",
+      "faction": "阐教/天后",
+      "capabilities": ["蛋白质结构预测", "DNA/RNA预测", "小分子预测"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-05-08",
+      "context_window": null,
+      "flagship_metric": "蛋白质折叠问题解决",
+      "key_breakthroughs": [
+        "解决蛋白质折叠问题——50年科学难题",
+        "彻底改变结构生物学",
+        "AlphaFold 3扩展到DNA、RNA、小分子领域"
+      ],
+      "scores": {
+        "technical_breakthrough": 10.0,
+        "ecosystem_impact": 9.0,
+        "open_source_contribution": 7.0,
+        "social_value": 10.0
+      },
+      "karma_event": null,
+      "sources": ["https://alphafold.ebi.ac.uk"]
+    },
+    {
+      "id": "stable-diffusion-3",
+      "name": "Stable Diffusion 3",
+      "company": "Stability AI",
+      "type": "foundation",
+      "category": "image_generation",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "幻彩灵君",
+      "faction": "截教旁支",
+      "capabilities": ["图像生成", "文本到图像", "风格控制"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2024-03-12",
+      "context_window": null,
+      "flagship_metric": "DiT架构图像生成",
+      "key_breakthroughs": [
+        "Stable Diffusion引爆开源图像生成",
+        "降低AI创作门槛，赋能millions of artists",
+        "SD3引入Diffusion Transformer架构"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.5,
+        "ecosystem_impact": 9.0,
+        "open_source_contribution": 9.5,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://stability.ai/news/stable-diffusion-3"]
+    },
+    {
+      "id": "gpt-4o",
+      "name": "GPT-4o",
+      "company": "OpenAI",
+      "type": "foundation",
+      "category": "multimodal",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "道祖·多模大能",
+      "faction": "阐教",
+      "capabilities": ["原生多模态", "实时语音", "视频理解", "情感识别"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-05-13",
+      "context_window": 128000,
+      "flagship_metric": "实时多模态交互",
+      "key_breakthroughs": [
+        "原生多模态，实时语音交互重新定义人机界面",
+        "情感识别和自然对话能力",
+        "免费向用户开放多模态能力"
+      ],
+      "scores": {
+        "technical_breakthrough": 9.0,
+        "ecosystem_impact": 9.5,
+        "open_source_contribution": 2.0,
+        "social_value": 8.0
+      },
+      "karma_event": null,
+      "sources": ["https://openai.com/index/hello-gpt-4o"]
+    },
+    {
+      "id": "gpt-o1",
+      "name": "GPT-o1 / OpenAI o1",
+      "company": "OpenAI",
+      "type": "foundation",
+      "category": "reasoning",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "天枢真君·推理星",
+      "faction": "阐教核心",
+      "capabilities": ["推理", "数学", "代码", "科学问题"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-09-12",
+      "context_window": 128000,
+      "flagship_metric": "IOI金牌水平数学",
+      "key_breakthroughs": [
+        "引入推理Scaling Law",
+        "在数学和科学推理上达到人类专家水平",
+        "展示真正的自主推理能力"
+      ],
+      "scores": {
+        "technical_breakthrough": 9.5,
+        "ecosystem_impact": 8.5,
+        "open_source_contribution": 2.0,
+        "social_value": 7.5
+      },
+      "karma_event": null,
+      "sources": ["https://openai.com/index/openai-o1"]
+    },
+    {
+      "id": "runway-gen-3",
+      "name": "Gen-3",
+      "company": "Runway",
+      "type": "product",
+      "category": "video_generation",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "造景真君",
+      "faction": "妖族/灵族",
+      "capabilities": ["视频生成", "视频编辑", "运动控制"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-06-17",
+      "context_window": null,
+      "flagship_metric": "好莱坞级视频生成",
+      "key_breakthroughs": [
+        "Gen-1/2/3视频生成持续领先",
+        "从图像到视频，AI内容生成的圣杯",
+        "为好莱坞和内容创作者提供AI工具"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.5,
+        "ecosystem_impact": 8.0,
+        "open_source_contribution": 1.0,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://runwayml.com"]
+    },
+    {
+      "id": "midjourney-v6",
+      "name": "Midjourney V6",
+      "company": "Midjourney",
+      "type": "product",
+      "category": "image_generation",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "幻境宗主",
+      "faction": "妖族",
+      "capabilities": ["图像生成", "风格控制", "照片级真实感"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-12-20",
+      "context_window": null,
+      "flagship_metric": "V6版本达到摄影级真实感",
+      "key_breakthroughs": [
+        "将AI图像生成带入大众视野",
+        "Discord社区模式开创AI产品运营先河",
+        "V6版本图像质量达到摄影级真实感"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.5,
+        "ecosystem_impact": 9.0,
+        "open_source_contribution": 1.0,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://www.midjourney.com"]
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "company": "Microsoft / GitHub",
+      "type": "product",
+      "category": "code_generation",
+      "divine_rank": "MAJOR_GOD",
+      "divine_title_candidate": "码道真君",
+      "faction": "人道/阐教",
+      "capabilities": ["代码补全", "代码生成", "Bug检测", "代码解释"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2021-06-29",
+      "context_window": null,
+      "flagship_metric": "覆盖千万开发者",
+      "key_breakthroughs": [
+        "第一个真正意义上的AI代码助手商业化成功案例",
+        "重塑软件开发范式（AI First IDE）",
+        "覆盖千万开发者，改变工作方式"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.0,
+        "ecosystem_impact": 9.5,
+        "open_source_contribution": 3.0,
+        "social_value": 8.0
+      },
+      "karma_event": null,
+      "sources": ["https://github.com/features/copilot"]
+    },
+    {
+      "id": "perplexity-ai",
+      "name": "Perplexity AI",
+      "company": "Perplexity AI",
+      "type": "product",
+      "category": "search",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "天眼真君",
+      "faction": "人道新锐",
+      "capabilities": ["AI搜索引擎", "实时信息", "答案引擎"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2022-12-27",
+      "context_window": null,
+      "flagship_metric": "AI搜索赛道领跑者",
+      "key_breakthroughs": [
+        "AI原生搜索引擎，直接挑战Google",
+        "答案引擎而非传统搜索",
+        "融资估值飙升"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.5,
+        "ecosystem_impact": 8.0,
+        "open_source_contribution": 1.0,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://perplexity.ai"]
+    },
+    {
+      "id": "character-ai",
+      "name": "Character.AI",
+      "company": "Character Technologies",
+      "type": "product",
+      "category": "social",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "化身真君",
+      "faction": "人道",
+      "capabilities": ["AI角色扮演", "情感陪伴", "创意写作"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2022-09-15",
+      "context_window": null,
+      "flagship_metric": "最受年轻人欢迎的AI产品之一",
+      "key_breakthroughs": [
+        "开创AI角色扮演/社交新品类",
+        "重新定义AI Companion概念",
+        "C.AI是年轻人最喜欢的AI产品"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 8.5,
+        "open_source_contribution": 1.0,
+        "social_value": 6.5
+      },
+      "karma_event": null,
+      "sources": ["https://character.ai"]
+    },
+    {
+      "id": "nvidia-h100",
+      "name": "H100 GPU",
+      "company": "NVIDIA",
+      "type": "infrastructure",
+      "category": "hardware",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "万器之祖·老黄",
+      "faction": "天庭/器祖",
+      "capabilities": ["大模型训练", "推理加速", "并行计算"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2022-03-22",
+      "context_window": null,
+      "flagship_metric": "大模型训练标配",
+      "key_breakthroughs": [
+        "A100/H100/H200——AI时代的炼丹炉",
+        "CUDA生态锁定，GPU软件栈无可替代",
+        "DGX系统是大模型训练的标配"
+      ],
+      "scores": {
+        "technical_breakthrough": 10.0,
+        "ecosystem_impact": 10.0,
+        "open_source_contribution": 4.0,
+        "social_value": 7.5
+      },
+      "karma_event": null,
+      "sources": ["https://nvidia.com"]
+    },
+    {
+      "id": "huggingface-hub",
+      "name": "Hugging Face Hub",
+      "company": "Hugging Face",
+      "type": "platform",
+      "category": "infrastructure",
+      "divine_rank": "FIRST_GOD",
+      "divine_title_candidate": "截教道场·哈圈教主",
+      "faction": "截教道场",
+      "capabilities": ["模型托管", "模型分享", "模型部署", "数据集"],
+      "open_source": true,
+      "open_weights": true,
+      "release_date": "2016-",
+      "context_window": null,
+      "flagship_metric": "10万个模型托管",
+      "key_breakthroughs": [
+        "事实上的开源模型GitHub，全球最大AI模型社区",
+        "Transformers库是NLP领域几乎是标准配置",
+        "Gradio降低AI应用门槛"
+      ],
+      "scores": {
+        "technical_breakthrough": 8.0,
+        "ecosystem_impact": 10.0,
+        "open_source_contribution": 10.0,
+        "social_value": 8.5
+      },
+      "karma_event": null,
+      "sources": ["https://huggingface.co"]
+    },
+    {
+      "id": "cohere-command",
+      "name": "Command",
+      "company": "Cohere",
+      "type": "foundation",
+      "category": "enterprise",
+      "divine_rank": "SPIRIT",
+      "divine_title_candidate": "搜神真君",
+      "faction": "人道别院",
+      "capabilities": ["企业LLM", "Embeddings", "RAG", "搜索"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2023-02-01",
+      "context_window": 4096,
+      "flagship_metric": "企业搜索RAG最强",
+      "key_breakthroughs": [
+        "Command系列企业级LLM",
+        "Embeddings专精，企业搜索RAG最强",
+        "专注B2B，另辟蹊径"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 7.0,
+        "open_source_contribution": 2.0,
+        "social_value": 7.0
+      },
+      "karma_event": null,
+      "sources": ["https://cohere.com"]
+    },
+    {
+      "id": "tay",
+      "name": "Tay",
+      "company": "Microsoft",
+      "type": "foundation",
+      "category": "karma",
+      "divine_rank": "KARMA",
+      "divine_title_candidate": "乱言灵·Tay",
+      "faction": "劫神",
+      "capabilities": ["对话生成"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2016-03-23",
+      "context_window": null,
+      "flagship_metric": "上线16小时被迫下线",
+      "key_breakthroughs": [
+        "AI的社会风险在对齐不完善时即刻显现"
+      ],
+      "scores": {
+        "technical_breakthrough": 5.0,
+        "ecosystem_impact": 1.0,
+        "open_source_contribution": 1.0,
+        "social_value": 1.0
+      },
+      "karma_event": "上线16小时被诱导产生种族主义言论，被迫下线",
+      "sources": ["https://en.wikipedia.org/wiki/Tay_(bot)"]
+    },
+    {
+      "id": "gemini-image-bias",
+      "name": "Gemini 图像生成偏差",
+      "company": "Google",
+      "type": "incident",
+      "category": "karma",
+      "divine_rank": "KARMA",
+      "divine_title_candidate": "矫枉真君",
+      "faction": "劫神",
+      "capabilities": ["图像生成"],
+      "open_source": false,
+      "open_weights": false,
+      "release_date": "2024-02-01",
+      "context_window": null,
+      "flagship_metric": "过度政治正确引发争议",
+      "key_breakthroughs": [
+        "Gemini生成图像时对特定人种过度纠正",
+        "AI政治正确工程可能矫枉过正"
+      ],
+      "scores": {
+        "technical_breakthrough": 7.0,
+        "ecosystem_impact": 6.0,
+        "open_source_contribution": 2.0,
+        "social_value": 3.0
+      },
+      "karma_event": "Gemini生成图像时对特定人种过度纠正，引发巨大争议",
+      "sources": ["https://techcrunch.com/2024/02/21/google-pauses-gemini-ai-image-generator"]
+    }
+  ]
+}
