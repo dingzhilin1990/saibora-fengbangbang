@@ -9,7 +9,7 @@
 ### 方式一：提交 GitHub Issue（推荐）
 
 1. Fork 本仓库
-2. 前往 [Issue 页面](https://github.com/dingzhilin1990/saibora-fengbangbang/issues/new)
+2. 前往 [Issue 页面](https://github.com/dingzhilin1990/saibora-fengshenbang/issues/new)
 3. 选择 `nomination` 模板
 4. 填写被提名的 AI 模型/产品/公司信息
 5. 提交！
@@ -135,7 +135,7 @@
 
 ## 九、联系方式
 
-- GitHub Issues：[提交提名或反馈](https://github.com/dingzhilin1990/saibora-fengbangbang/issues)
+- GitHub Issues：[提交提名或反馈](https://github.com/dingzhilin1990/saibora-fengshenbang/issues)
 - 邮件：`saibora@example.com`（待设置）
 
 ---

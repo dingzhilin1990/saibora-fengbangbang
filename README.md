@@ -314,7 +314,7 @@
 ## 📂 项目结构
 
 ```
-saibora-fengbangbang/
+saibora-fengshenbang/
 ├── README.md              # 项目主文档
 ├── CATALOGUE.md           # 神号词典（中西方神话×AI对照）
 ├── NOMINATION.md          # 提名榜（含12大领域分类）
