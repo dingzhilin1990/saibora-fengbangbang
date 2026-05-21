@@ -1,0 +1,59 @@
+name: Validate Models Data
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validate models.json schema
+        run: |
+          python3 -c "
+import json, sys
+from pathlib import Path
+
+required_fields = ['name', 'company', 'scores', 'temple', 'divine_rank', 'divine_title_east']
+score_fields = ['technical_innovation', 'practical_value', 'ecosystem', 'ethics', 'civilizational']
+
+path = Path('data/models/models.json')
+data = json.loads(path.read_text(encoding='utf-8'))
+models = data.get('models', [])
+print(f'Found {len(models)} models')
+
+errors = []
+for i, m in enumerate(models):
+    for f in required_fields:
+        if f not in m:
+            errors.append(f'Model {i} ({m.get("name","?")}): missing field "{f}"')
+    if 'scores' in m:
+        for sf in score_fields:
+            if sf not in m['scores']:
+                errors.append(f'Model {i} ({m.get("name","?")}): missing score "{sf}"')
+            elif not isinstance(m['scores'][sf], (int, float)):
+                errors.append(f'Model {i}: score {sf} must be number')
+            elif not (0 <= m['scores'][sf] <= 10):
+                errors.append(f'Model {i}: score {sf} must be 0-10')
+    if 'scores' in m:
+        total = sum(m['scores'][sf] for sf in score_fields)
+        print(f'  {m["name"]}: {total:.2f}')
+
+if errors:
+    print('ERRORS:')
+    for e in errors:
+        print(f'  - {e}')
+    sys.exit(1)
+else:
+    print('All models valid!')
+"
